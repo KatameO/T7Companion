@@ -1,0 +1,16 @@
+@import './reset';
+@import './mixins';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 1em;
+}
+
+.wrapper {
+	padding: 3em 0;
+}

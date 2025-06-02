@@ -1,0 +1,35 @@
+{
+	"name": "T7api",
+	"version": "1.0.0",
+	"description": "T7api helps players with everything frame related",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon --inspect index.js",
+		"start": "node"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fANZYo/T7api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fANZYo/T7api/issues"
+	},
+	"homepage": "https://github.com/fANZYo/T7api#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-query-boolean": "^2.0.0",
+		"fuzzy-search": "^3.1.0",
+		"pg": "^7.18.1",
+		"redis": "^2.8.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb-base": "^13.2.0",
+		"eslint-plugin-import": "^2.20.0",
+		"nodemon": "^1.19.4"
+	}
+}
